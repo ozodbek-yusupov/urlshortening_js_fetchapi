@@ -15,7 +15,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: orange;
+    background: url(img.png) no-repeat center center fixed;
 }
 section{
     width: 500px;
@@ -24,8 +24,9 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #fff;
+    background: linear-gradient(to right, #ff0080, #ff7300);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 8px;
 }
 header h1 {
     width: 100%;
@@ -69,6 +70,7 @@ section #shorten:hover{
 }
 section p{
     margin-top: 50px;
+    font-weight: bold;
 }
 section .result{
     width: 80%;
